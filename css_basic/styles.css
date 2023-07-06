@@ -3,6 +3,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(120deg, #f7f7f7, #dc4848);
 }
 
 main {
@@ -14,9 +15,14 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
+}
+
+h1, h2, h3 {
+    color: #6a0808;
 }
